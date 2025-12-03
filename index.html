@@ -23,16 +23,17 @@
     <style>
       :root {
         --primary-color: #ff8fa3; /* Pink pastel */
-        --secondary-color: #fff0f3; /* Pink sangat muda */
+        --secondary-color: #E0F4FF; /* Pink sangat muda */
         --accent-color: #c9184a; /* Pink tua */
         --text-font: "Poppins", sans-serif;
         --title-font: "Sacramento", cursive;
       }
 
       body {
+        background-image: red;
         font-family: var(--text-font);
         background-color: var(--secondary-color);
-        color: #444;
+        color: red;
         overflow-x: hidden;
       }
 
@@ -202,7 +203,7 @@
   <body>
     <audio id="bgMusic" loop>
       <source
-        src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        src="hbd.mp3"
         type="audio/mpeg"
       />
     </audio>
@@ -212,9 +213,9 @@
 
     <header class="hero">
       <div class="container animate__animated animate__fadeIn">
-        <p>You Are Invited To</p>
-        <h1>Agus's 17th Birthday</h1>
-        <p class="mt-3">Sweet Seventeen Celebration</p>
+        <p>Undangan</p>
+        <h1>Reygananta</h1>
+        <p class="mt-3">1 Tahun Birthday</p>
       </div>
     </header>
 
@@ -257,14 +258,14 @@
             <div class="card card-custom p-4 h-100">
               <div class="icon-circle"><i class="far fa-calendar-alt"></i></div>
               <h4>Tanggal</h4>
-              <p class="mb-0">Sabtu, 20 Desember 2025</p>
+              <p class="mb-0">Sabtu, 6 Desember 2025</p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card card-custom p-4 h-100">
               <div class="icon-circle"><i class="far fa-clock"></i></div>
               <h4>Waktu</h4>
-              <p class="mb-0">19:00 WIB - Selesai</p>
+              <p class="mb-0">17:30 WITA - Selesai</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -273,11 +274,11 @@
                 <i class="fas fa-map-marker-alt"></i>
               </div>
               <h4>Lokasi</h4>
-              <p class="mb-0">Grand Hotel Ballroom</p>
-              <small class="text-muted">Jl. Jendral Sudirman No. 1</small>
+              <p class="mb-0">RM RM COZY RESTO</p>
+              <small class="text-muted">Jl Pantai Penimbangan Singaraja</small>
               <div class="mt-3">
                 <a
-                  href="https://goo.gl/maps"
+                  href="https://maps.app.goo.gl/Y9uQbYgge7F8EZF16?g_st=ipc"
                   target="_blank"
                   class="btn btn-sm btn-outline-danger rounded-pill"
                   >Lihat Peta</a
@@ -295,23 +296,16 @@
         <div class="row g-3">
           <div class="col-md-4 col-6">
             <img
-              src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=600&q=80"
+              src="foto1.jpeg"
               class="gallery-img"
               alt="Foto 1"
             />
           </div>
           <div class="col-md-4 col-6">
             <img
-              src="https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?auto=format&fit=crop&w=600&q=80"
+             src="foto1.jpeg"
               class="gallery-img"
-              alt="Foto 2"
-            />
-          </div>
-          <div class="col-md-4 col-12">
-            <img
-              src="https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?auto=format&fit=crop&w=600&q=80"
-              class="gallery-img"
-              alt="Foto 3"
+              alt="Foto 1"
             />
           </div>
         </div>
@@ -320,8 +314,8 @@
 
     <footer>
       <div class="container">
-        <p class="mb-0">Created with ❤️ for Amanda's Birthday</p>
-        <small class="text-muted">© 2025 Invitation Template</small>
+        <p class="mb-0">Created with ❤️ for Reygananta Birthday</p>
+        <small class="text-muted">© 2025 Widi Template</small>
       </div>
     </footer>
 
@@ -330,7 +324,7 @@
     <script>
       // 1. Set Tanggal Ulang Tahun di sini (Tahun, Bulan-1, Tanggal)
       // Bulan dimulai dari 0 (Januari = 0, Desember = 11)
-      const eventDate = new Date(2025, 11, 20, 19, 0, 0).getTime();
+      const eventDate = new Date(2025, 11, 6, 19, 0, 0).getTime();
 
       const countdown = setInterval(function () {
         const now = new Date().getTime();
